@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Use relative base by default so the build works on GitHub Pages or subpaths.
+// Configure base URL for GitHub Pages
 export default defineConfig({
-  base: './',
+  base: '/Talentflow-app/',
   plugins: [react()],
   server: {
     port: 5173
